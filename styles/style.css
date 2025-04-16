@@ -306,7 +306,6 @@
 }
 
 .membership__steps {
-  padding: 40px;
   column-gap: 40px;
   display: flex;
   justify-content: center;
@@ -392,7 +391,7 @@
 
 .footer__column-link {
   display: flex;
-  align-items: start;
+  align-items: center;
   column-gap: 10px;
   color: white;
   text-decoration: none;
@@ -400,6 +399,7 @@
 
 .footer__social-icon {
   height: 16px;
+  width: 16px;
   margin-right: 10px;
 }
 
