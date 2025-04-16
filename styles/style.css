@@ -306,8 +306,9 @@
 }
 
 .membership__steps {
+  padding: 40px;
+  column-gap: 40px;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
   list-style-type: none;
   margin: 100px 0 0;
@@ -355,15 +356,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-bottom: 100px;
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin: 0;
+  margin-left: 80px;
   padding: 0;
 }
 
@@ -376,12 +376,11 @@
 
 .footer__column-heading {
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
   margin-right: 0;
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -393,18 +392,17 @@
 
 .footer__column-link {
   display: flex;
-  align-items: flex-start;
-  padding: 0;
+  align-items: start;
+  column-gap: 10px;
   color: white;
   text-decoration: none;
 }
 
 .footer__social-icon {
-  padding: 0;
-  width: 16px;
+  height: 16px;
   margin-right: 10px;
 }
 
 .footer__copyright {
-  margin: 0;
+  margin-top: 100px;
 }
